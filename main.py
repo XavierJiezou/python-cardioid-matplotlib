@@ -1,8 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
+from animate import animate
 
 
-def cardioid(a):
+def cardioid_rectangular(a):
     theta = np.linspace(0, 2*np.pi, 1000)
     x = a*(1-np.cos(theta))*np.sin(theta)
     y = a*(1-np.cos(theta))*np.cos(theta)
@@ -12,5 +13,15 @@ def cardioid(a):
     plt.show()
 
 
+def cardioid_polar(a):
+    theta = np.linspace(0, 2*np.pi, 1000)
+    r = a*(1 - np.sin(theta))
+    graph = plt.subplot(111, polar=True)
+    graph.plot(theta, r, color='red', linewidth=2)
+    plt.show()
+
+
 if __name__ == '__main__':
-    cardioid(1)
+    cardioid_rectangular(1) # draw a cardioid according to the parametric equation
+    cardioid_polar(1) # darw a cardioid according to the polar equation
+    animate(1) # darw a cardioid dynamically
