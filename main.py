@@ -17,7 +17,7 @@ def cardioid_polar(a):
     theta = np.linspace(0, 2*np.pi, 1000)
     r = a*(1 - np.sin(theta))
     graph = plt.subplot(111, polar=True)
-    graph.plot(theta, r, color='red', linewidth=2)
+    graph.plot(theta, r, color='red')
     plt.savefig('heart-polar.png')
     plt.show()
 
