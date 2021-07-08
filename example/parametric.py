@@ -13,4 +13,4 @@ def cardioid_parametric(a):
 
 
 if __name__ == '__main__':
-    cardioid_parametric(1)
+    cardioid_parametric(1) # draw a cardioid according to the parametric equation

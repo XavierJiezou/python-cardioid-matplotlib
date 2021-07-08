@@ -12,4 +12,4 @@ def cardioid_polar(a):
 
 
 if __name__ == '__main__':
-    cardioid_polar(1)
+    cardioid_polar(1) # draw a cardioid according to the polar equation
