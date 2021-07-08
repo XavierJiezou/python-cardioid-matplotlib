@@ -25,7 +25,7 @@ cd python-cardioid-matplotlib
 ```
 2. 根据参数方程绘制心形线。
 ```bash
-python python .\example\parametric.py
+python .\example\parametric.py
 ```
 3. 根据极坐标方程绘制心形线。
 ```bash
