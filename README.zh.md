@@ -3,7 +3,7 @@
 用`Python`的`matplotlib`库绘制心形线。
 # 演示
 ![heart.png](./img/heart.png)
-![heart-poloar.png](,/img/heart-polar.png)
+![heart-poloar.png](./img/heart-polar.png)
 ![heart-flat.png](./img/heart-flat.png)
 ![header.gif](./img/heart.gif)
 # 安装
