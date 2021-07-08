@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-def flat():
+def cardioid_flat():
     t = np.linspace(0, np.pi, 1000)
     x = np.sin(t)
     y = np.cos(t) + np.power(x, 2/3)
@@ -14,4 +14,4 @@ def flat():
 
 
 if __name__ == '__main__':
-    flat() # darw a flat cardioid
+    cardioid_flat() # darw a flat cardioid
