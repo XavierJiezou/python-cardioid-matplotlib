@@ -35,7 +35,7 @@ python .\example\polar.py
 ```bash
 python .\example\animate.py 
 ```
-5. 运行从1-4的所有代码。
+5. 运行1-4的所有代码。
 ```bash
 python .\main.py
 ```
