@@ -9,7 +9,8 @@ def cardioid_flat():
     plt.plot(x, y, color='r')
     plt.plot(-x, y, c='r')
     plt.axis('off')
-    plt.savefig('heart-flat.png')
+    plt.savefig('./img/heart-flat.png')
+    plt.savefig('./img/heart-flat.png')
     plt.show()
 
 

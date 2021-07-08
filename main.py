@@ -1,14 +1,14 @@
-from parametric import cardioid_parametric
-from polar import cardioid_polar
-from flat import cardioid_flat
-from animate import cardioid_animate
+from example.parametric import cardioid_parametric
+from example.polar import cardioid_polar
+from example.flat import cardioid_flat
+from example.animate import cardioid_animate
 
 
 def main():
+    cardioid_animate(1)
     cardioid_parametric(1)
     cardioid_polar(1)
     cardioid_flat()
-    cardioid_animate(1)
 
 
 if __name__ == '__main__':

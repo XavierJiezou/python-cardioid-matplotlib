@@ -26,7 +26,7 @@ def update(i, a):
 def cardioid_animate(a):
     ani = animation.FuncAnimation(figure, update, init_func=init, frames=11, fargs=(a,), blit=True)
     plt.axis('off')
-    ani.save('heart.gif')
+    ani.save('./img/heart.gif')
     plt.show()
 
 

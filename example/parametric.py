@@ -8,7 +8,7 @@ def cardioid_parametric(a):
     y = a*(1-np.cos(theta))*np.cos(theta)
     plt.plot(x, y, c='r')
     plt.axis('off')
-    plt.savefig('heart.png')
+    plt.savefig('./img/heart.png')
     plt.show()
 
 
