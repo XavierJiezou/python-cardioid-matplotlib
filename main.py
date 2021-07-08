@@ -5,7 +5,7 @@ from example.animate import cardioid_animate
 
 
 def main():
-    cardioid_animate(1)
+    cardioid_animate(1) # draw a cardioid dy
     cardioid_parametric(1)
     cardioid_polar(1)
     cardioid_flat()
