@@ -11,6 +11,12 @@
 ```
 pip install matplotlib
 ```
+# 方程
+## 参数方程
+<img src="https://latex.codecogs.com/svg.image?\left\{\begin{matrix}x(\theta&space;)=a\left(1-cos\theta&space;\right)&space;sin\theta&space;\\y(\theta&space;)=a\left(1-cos\theta&space;\right)&space;cos\theta&space;\end{matrix}\right." title="Parametric Equation" />
+
+## 极坐标方程
+![Polar Equation](https://latex.codecogs.com/svg.image?r=&space;a\left(1-sin\theta&space;\right))
 # 用法
 1. 克隆仓库。
 ```bash
