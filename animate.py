@@ -31,4 +31,4 @@ def animate(a):
 
 
 if __name__ == '__main__':
-    animate(1)
+    animate(1) # darw a cardioid dynamically

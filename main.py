@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from animate import animate
+from flat import flat
 
 
 def cardioid_rectangular(a):
@@ -24,5 +25,4 @@ def cardioid_polar(a):
 
 if __name__ == '__main__':
     cardioid_rectangular(1) # draw a cardioid according to the parametric equation
-    cardioid_polar(1) # darw a cardioid according to the polar equation
-    animate(1) # darw a cardioid dynamically
+    cardioid_polar(1)  # darw a cardioid according to the polar equation

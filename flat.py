@@ -8,9 +8,10 @@ def flat():
     y = np.cos(t) + np.power(x, 2/3)
     plt.plot(x, y, color='r')
     plt.plot(-x, y, c='r')
-    plt.savefig('flat.png')
+    plt.axis('off')
+    plt.savefig('heart-flat.png')
     plt.show()
 
 
 if __name__ == '__main__':
-    flat()
+    flat() # darw a flat cardioid
