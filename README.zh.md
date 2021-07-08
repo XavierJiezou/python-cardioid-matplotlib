@@ -31,11 +31,15 @@ python .\example\parametric.py
 ```bash
 python .\example\polar.py
 ```
-4. 动态绘制心形线。
+4. 绘制一个扁点的心形线。
+```
+python .\example\flat.py 
+```
+5. 动态绘制心形线。
 ```bash
 python .\example\animate.py 
 ```
-5. 运行1-4的所有代码。
+6. 运行2-5的所有代码。
 ```bash
 python .\main.py
 ```
